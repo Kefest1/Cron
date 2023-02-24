@@ -4,11 +4,11 @@ This programme is a simple implementation of a Linux Cron utility.<br/>
 https://en.wikipedia.org/wiki/Cron
 
 Unlike the original it saves all scheduled tasks in RAM memory,
-therefore it can work with nanosecond precision, however tasks are canceled at system shutdown.
+therefore it can work with nanosecond precision, however tasks are canceled at system shutdown.<br/>
 Uses message queues. <br/>
-It also has a possibility of saving logs (implemented in my_logger file).
-Using programme with wrong arguments may result in undefined behavior
-Tasks are being held in linked list.
+It also has a possibility of saving logs (implemented in my_logger file).<br/>
+Using programme with wrong arguments may result in undefined behavior.<br/>
+Tasks are held in linked list.
 
 Sample usage:
 make <br/>
