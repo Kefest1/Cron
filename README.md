@@ -15,7 +15,7 @@ make <br/>
 ./my_cron -> starts a server (arguments are ignored)<br/>
 After that all my_cron calls are clients:<br/>
 ./my_cron -a ~/my_dump 60 500000000 60 0 -> makes dump after 60.5 seconds, then repeats every 60 seconds<br/>
-./my_cron -a /bin/touch 900 0 0 0 file.txt data.bin -> creates a file after 900 sec<br/>
+./my_cron -a /bin/touch 900 0 0 0 file.txt data.bin -> creates a files after 900 sec<br/>
 ./my_cron -l -> lists all tasks<br/>
 ./my_cron -d 1 -> cancels task having ID 1<br/>
 ./my_cron -n root/path 30 15 11 19 2 2023 10 0 arg1 arg2 arg3<br/>
