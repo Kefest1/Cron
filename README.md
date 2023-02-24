@@ -21,3 +21,4 @@ After that all my_cron calls are clients:<br />
 ./my_cron -n root/path 30 15 11 19 2 2023 10 0 arg1 arg2 arg3<br />
         -> creates a timer, that runs at 19/2/2023 at 11.15.30 and repeats every 10 sec<br />
            programme gets 3 arguments<br />
+./my_cron -q -> server quits. All tasks are cancelled.
